@@ -22,7 +22,9 @@
 	{{ partial "mission.html" . }}
 	{{ end }}
 
-	{{ partial "episodes.html" .}}
+	{{ range where .Site.Pages "Type" "episode" }}
+		{{ .Render "episode"}}
+	{{ end }}
 
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
