@@ -22,7 +22,7 @@
 	{{ partial "mission.html" . }}
 	{{ end }}
 
-	{{ range where .Site.Pages "Type" "episode" }}
+	{{ range (where .Site.Pages "Type" "episode").ByParam "id" }}
 		{{ .Render "episode"}}
 	{{ end }}
 
