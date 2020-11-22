@@ -1,11 +1,23 @@
-
 <div id="fh5co-episode" data-section="episodes-{{.Params.id}}">
   <div class="container">
     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
       <h2>{{ .Title}} </h2>
     </div>
     <div class="col-md-12">
-            <p>{{ .Content }}</p>
+      <p>{{ .Content }}</p>
+      {{ if isset .Params "concepts"}}
+      <p>
+      <details>
+        <summary>Concepts in this part</summary>
+        <ul>
+          {{ range .Params.concepts}}
+          <li> {{ . | markdownify }} </li>
+
+          {{ end }}
+        </ul>
+      </details>
+      </p>
+      {{ end }}
     </div>
 
     <div class="col-md-12 text-center">
@@ -14,22 +26,22 @@
 
     {{ if isset .Params "commit" }}
     <div class="col-md-12">
-      	<div class="icon code"><a
-      	    href="https://github.com/coolya/basic-lang/commit/{{ .Params.commit }}" target="blank"><i class=icon-github></i>
-      	     code</a></div>
+      <div class="icon code"><a href="https://github.com/coolya/basic-lang/commit/{{ .Params.commit }}"
+          target="blank"><i class=icon-github></i>
+          code</a></div>
     </div>
     {{ end }}
 
     {{ if isset .Params "furtherreading"}}
     <div class="col-md-12">
-    <p>Further Readings:</p>
-    <ul>
-      {{ range .Params.furtherreading}}
-      <li> {{ . | markdownify }} </li>
-        
-      {{ end }}  
-    </ul>
-  </div>
+      <p>Further Readings:</p>
+      <ul>
+        {{ range .Params.furtherreading}}
+        <li> {{ . | markdownify }} </li>
+
+        {{ end }}
+      </ul>
+    </div>
     {{ end }}
 
   </div>
