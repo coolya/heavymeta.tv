@@ -11,12 +11,9 @@
 
 
 	<a href="#" data-nav-section="episodes-0">Episodes:</a>
-	{{ with .Site.Params.episodes }}
-	{{ range .item }}
-	<a href="#" data-nav-section="episodes-{{.id}}">{{ .id | markdownify }}</a>
+	{{ range (where .Site.Pages "Type" "episode").ByParam "id" }}
+		<a href="#" data-nav-section="episodes-{{.Params.id}}">{{ .Params.id | markdownify }}</a>
 	{{ end }}
-	{{ end }}
-
 
 
 	{{ if .Site.Params.services.enable }}
