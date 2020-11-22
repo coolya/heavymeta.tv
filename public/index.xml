@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heavy Meta TV</title>
+    <link>https://heavymeta.tv/</link>
+    <description>Recent content on Heavy Meta TV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    
+	<atom:link href="https://heavymeta.tv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Editors</title>
+      <link>https://heavymeta.tv/episodes/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/3/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>code generator basics</title>
+      <link>https://heavymeta.tv/episodes/9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/9/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>continue on code generator</title>
+      <link>https://heavymeta.tv/episodes/10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/10/</guid>
+      <description>code gen blah</description>
+    </item>
+    
+    <item>
+      <title>Editors with Grammar Cells and Basic Type System </title>
+      <link>https://heavymeta.tv/episodes/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/4/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to JetBrains Meta Programming System</title>
+      <link>https://heavymeta.tv/episodes/0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/0/</guid>
+      <description>You will get an overview about what the Meta Programming System by JetBrains is, what it is useful for, where its strengths are and how it compares to other implementation technologies of MPS. You will also get a short walkthrough of what others have build with MPS.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Language Aspects</title>
+      <link>https://heavymeta.tv/episodes/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/1/</guid>
+      <description>In this Episode you will get an overview on how MPS separates the different concerns of implementing a language with in the language workbench with language aspects. We will cover all the aspects that MPS offers to implement a language and also take a look at examples for the ones that used the most.</description>
+    </item>
+    
+    <item>
+      <title>more testing of our language and some new concepts</title>
+      <link>https://heavymeta.tv/episodes/8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/8/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>More Type System for our Programming Language</title>
+      <link>https://heavymeta.tv/episodes/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/5/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>Nested Scopes and Testing </title>
+      <link>https://heavymeta.tv/episodes/7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/7/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+    <item>
+      <title>Starting our first Language</title>
+      <link>https://heavymeta.tv/episodes/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/2/</guid>
+      <description>We start with an introduction to the language we would like to build and define some of the features that language will support which we will then implement over the course of the next episodes. You will learn how to create your first project and get stated with the initial definition of the language. For the language we will define basic editor and introduce how version control with MPS works.</description>
+    </item>
+    
+    <item>
+      <title>Variable References and Scopes</title>
+      <link>https://heavymeta.tv/episodes/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heavymeta.tv/episodes/6/</guid>
+      <description>You will continue further with your language definition that we started you started in the last episode. This time the focus is on making the language easier to use and behave like a text editor to meet the users expectations. The implementation is done with &amp;ldquo;vanilla&amp;rdquo; MPS and not third party libraries are used. To achieve this goal we will use the substitute menu and actions from MPS.</description>
+    </item>
+    
+  </channel>
+</rss>
