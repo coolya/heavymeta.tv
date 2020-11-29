@@ -1,6 +1,4 @@
 
-# About
-
 Heavy Meta TV hosts an in depth tutorial for JetBrains Meta Programming System (MPS) of about 20 hours. The tutorials 
 were filmed as part of a series of live streams in 2018/2019. Since then MPS hasn't changed fundamentally so most of the
 content is still up to date. The series starts with a general introduction into modeling / language engineering and a 

@@ -1,4 +1,4 @@
-<div id="fh5co-episode" data-section="episodes-{{.Params.id}}">
+<div id="fh5co-episode-{{.Params.id}}" data-section="episodes-{{.Params.id}}" class="episode">
   <div class="container">
     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
       <h2>{{ .Title}} </h2>
@@ -44,5 +44,14 @@
     </div>
     {{ end }}
 
+    <div class="col-md-12 interact">
+      <a class="edit" target="_blank"
+        href="https://github.com/coolya/heavymeta.tv/edit/master/content/episodes/{{ .Params.id }}.md"><img
+          src="/images/edit.svg" alt="edit this episode on github" /> </a>
+      <a class="feedback" target="_blank"
+        href="https://github.com/coolya/heavymeta.tv/issues/new?assignees=&labels=feedback&template=episode-feedback.md&title=Episode%3A+{{.Params.id }}"><img
+          src="/images/warning.svg" alt="feedback to this episode on github" /></a>
+    </div>
   </div>
+
 </div> <!-- END fh5co-services -->
