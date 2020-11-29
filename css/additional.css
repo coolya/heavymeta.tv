@@ -1,0 +1,26 @@
+#fh5co-about {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.fh5co-heading h2 {
+    font-size: 24px;
+}
+
+.episode {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.interact{
+    text-align: right
+}
+
+.interact img {
+    width: 18px;
+}
+
+.fh5co-copy-inner img {
+    width: 33%;
+    margin-bottom: 30px;
+}
