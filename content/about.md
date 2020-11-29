@@ -5,9 +5,9 @@ content is still up to date. The series starts with a general introduction into 
 general introduction into the various aspects of MPS. At the end of the tutorial you will have build a complete 
 expression language from start to finish including a simple code generator to Java. The tutorial encourages coding along
 but feel free to jump in at any point. Each episode links to github where the project is in the same state as at the 
-beginning of the episode which should make it easy to get started. Since each episode builds on the precious one it can 
+beginning of the episode which should make it easy to get started. Since each episode builds on the previous one it can 
 hard to skip episodes if you aren't familiar with basics. The source code for each episode is update along with new MPS 
-releases which will allow you to use the current version of MPS.  
+releases which will allow you to use the current version of MPS.
 
 In addition to the video and the source code each episode links to additional documentation and information on the topic
 it covers.

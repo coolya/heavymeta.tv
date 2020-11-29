@@ -3,6 +3,14 @@
     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
       <h2>{{ .Title}} </h2>
     </div>
+
+    {{ if isset .Params "git-branch" }}
+    <div class="col-md-6 col-md-offset-3 text-center">
+      <div class="icon code"><a href="https://github.com/coolya/basic-lang/tree/episode/{{.Params.id}}"
+          target="blank"><i class=icon-github></i>
+          code</a></div>
+    </div>
+    {{ end }}
     <div class="col-md-12">
       <p>{{ .Content }}</p>
       {{ if isset .Params "concepts"}}
@@ -20,17 +28,13 @@
       {{ end }}
     </div>
 
+
+
     <div class="col-md-12 text-center">
       {{ partial "youtube.html" .}}
     </div>
 
-    {{ if isset .Params "commit" }}
-    <div class="col-md-12">
-      <div class="icon code"><a href="https://github.com/coolya/basic-lang/commit/{{ .Params.commit }}"
-          target="blank"><i class=icon-github></i>
-          code</a></div>
-    </div>
-    {{ end }}
+    
 
     {{ if isset .Params "furtherreading"}}
     <div class="col-md-12">

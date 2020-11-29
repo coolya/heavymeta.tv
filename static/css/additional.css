@@ -24,3 +24,11 @@
     width: 33%;
     margin-bottom: 30px;
 }
+
+.episode > div:nth-child(1) > div:nth-child(1) {
+    margin-bottom: 0px;
+}
+
+div.icon i {
+    font-size: 14px;
+}
