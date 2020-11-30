@@ -42,13 +42,11 @@ details.concepts > summary {
     font-weight: 500;
 }
 
-
 details.concepts > summary > img {
     width: 18px;
     padding-bottom: 4px;
     transition: 200ms linear;
 }
-
 
 details.concepts[open] > summary > img {
     transform: rotate(90deg);
