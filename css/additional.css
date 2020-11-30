@@ -48,6 +48,10 @@ details.concepts > summary > img {
     transition: 200ms linear;
 }
 
+details.concepts > summary::-webkit-details-marker {
+    display: none
+}
+
 details.concepts[open] > summary > img {
     transform: rotate(90deg);
     padding-bottom: 0px;
