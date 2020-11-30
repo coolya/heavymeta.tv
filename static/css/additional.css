@@ -16,6 +16,10 @@
     text-align: right
 }
 
+.interact a:hover {
+    text-decoration: none;
+}
+
 .interact img {
     width: 18px;
 }
@@ -30,5 +34,40 @@
 }
 
 div.icon i {
-    font-size: 14px;
+    font-size: 16px;
+}
+
+details.concepts > summary {
+    color: #69c2c8;
+    font-weight: 500;
+}
+
+
+details.concepts > summary > img {
+    width: 18px;
+    padding-bottom: 4px;
+    transition: 200ms linear;
+}
+
+
+details.concepts[open] > summary > img {
+    transform: rotate(90deg);
+    padding-bottom: 0px;
+    padding-right: 4px;
+    height: 18px;
+    width: unset;
+}
+
+div.furtherreading {
+    margin-top: 20px;
+}
+
+div.furtherreading > p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.code a {
+    text-transform: uppercase;
+    font-weight: 500;
 }

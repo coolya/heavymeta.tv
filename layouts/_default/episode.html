@@ -15,8 +15,8 @@
       <p>{{ .Content }}</p>
       {{ if isset .Params "concepts"}}
       <p>
-      <details>
-        <summary>Concepts in this part</summary>
+      <details class="concepts">
+        <summary><img src="/images/arrow.svg" /> Concepts in this part</summary>
         <ul>
           {{ range .Params.concepts}}
           <li> {{ . | markdownify }} </li>
@@ -37,7 +37,7 @@
     
 
     {{ if isset .Params "furtherreading"}}
-    <div class="col-md-12">
+    <div class="col-md-12 furtherreading">
       <p>Further Readings:</p>
       <ul>
         {{ range .Params.furtherreading}}
