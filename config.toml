@@ -13,7 +13,7 @@ title = "Heavy Meta TV"
 [params.hero]
   img = "images/hero.jpg"
   title = "Tutorials for JetBrains Meta Programming System"
-  description = "Comprehensive tutorials and information about how to build and design your langauges."
+  description = "Comprehensive tutorials and information about how to build and design your languages."
 
 # Navigation section
 [params.nav]
