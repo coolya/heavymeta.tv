@@ -7,12 +7,12 @@ title = "Heavy Meta TV"
 # Metadata
 [params]
   author = "Kolja Dummann"
-  description = "Videos and Tutorials around JetBrains MPS"
+  description = "Tutorials for JetBrains Meta Programming System (MPS)."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero.jpg"
-  title = "Tutorials for JetBrains Meta Programming System"
+  title = "Tutorials for JetBrains Meta Programming System (MPS)"
   description = "Comprehensive tutorials and information about how to build and design your languages."
 
 # Navigation section
