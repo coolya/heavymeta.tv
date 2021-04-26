@@ -15,6 +15,9 @@
 		<a href="#" data-nav-section="episodes-{{.Params.id}}">{{ .Params.id | markdownify }}</a>
 	{{ end }}
 
+	<a href="/grammar-cookies" class="external">Grammar Cookies</a>
+
+
 
 	{{ if .Site.Params.services.enable }}
 	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>

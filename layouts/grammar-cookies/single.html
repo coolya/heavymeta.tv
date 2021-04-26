@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+  <body>
+
+
+    <div class="fh5co-page">
+      <div id="fh5co-container">
+
+	{{ partial "nav-pages.html" . }}
+
+    <div data-section="mission">
+        <div class="container">
+            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                <h2>    {{.Title}}</h2>
+              </div>
+              <div class="col-md-12">
+                {{.Content}}
+              </div>
+        </div>
+    </div> 
+
+    {{ range sort (where .Resources "Type" "cookie") "Date" "asc"}} 
+    {{ .Render "cookie"}}
+    {{ end }}
+
+	{{ if .Site.Params.footer.enable }}
+	{{ partial "footer.html" .}}
+	{{ end }}
+
+      </div>
+    </div>
+
+    {{ partial "js.html" .}}
+
+  </body>
+</html>

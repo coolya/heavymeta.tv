@@ -11,7 +11,7 @@ title = "Heavy Meta TV"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero.jpg"
+  img = "/images/hero.jpg"
   title = "Tutorials for JetBrains Meta Programming System (MPS)"
   description = "Comprehensive tutorials and information about how to build and design your languages."
 
